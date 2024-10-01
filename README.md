@@ -37,3 +37,7 @@ Este proyecto no cuenta con pruebas automatizadas. Sin embargo, puedes probar ma
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE.md](LICENSE.md) para obtener más detalles.
 
 ⌨ ️Carlos Santana (https://github.com/crsantanag)
+intengrantes 
+Carlos Santana
+Jose eyzaguirre
+Fernando Lopes 
