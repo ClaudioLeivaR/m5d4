@@ -1,0 +1,27 @@
+<div class="container mx-5 my-2">
+    <h1>Personajes</h1>
+
+    <% if @character.any? %>
+        <table>
+            <thead data-theme="light">
+                <tr>
+                    <th class="col-medium" scope="col">Nombre</th>
+                    <th class="col-medium" scope="col">Director</th>
+                    <th class="col-large"  scope="col">Sinopsis</th>
+                </tr>
+            </thead>
+            <tbody class="striped">
+                <% @character.each do |hp| %>
+                    <tr>                        
+                        <td class="col-medium mx-4"> <%= hp.name %> </td>
+                        <td class="col-medium"> <%= hp.location %> </td>
+                        <td class="col-large">  <%= hp.house %> </td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+        <br>
+    <% else %>
+        <h3>No hay personales para mostrar</h3>
+    <% end %>
+</div>
